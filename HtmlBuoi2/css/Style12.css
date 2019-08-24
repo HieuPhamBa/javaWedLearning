@@ -1,0 +1,124 @@
+form{
+    box-sizing: border-box;
+    width: 30em;
+    color: gray;
+    border-radius:5px 5px 5px 5px; 
+    border-color: black; 
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+form .group{
+    padding: 10px;
+}
+
+form h1{
+    box-sizing: border-box;
+    margin: 0px;
+    color: black;
+    padding-left: 10px;
+    background-color: rgba(247, 247, 247, 0.575);
+    padding-bottom: 30px;
+    border-style: solid;
+    border-radius:5px 5px 5px 5px; 
+    border-color: rgba(247, 247, 247, 0.575);
+   
+}
+
+form .group input{
+    width: 29.5em;
+    height: 2em;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: solid 1px rgba(184, 183, 181, 0.685);
+    transition: all 1s cubic-bezier(0.64, 0.09,0.08,1);
+    background: linear-gradient(to bottom, rgda(255,255,255,0) 96%, #59837a 4%);
+    background-position: -200px 0;
+    background-size: 200px 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.2);
+    background-repeat: no-repeat;
+}
+
+form .group input:focus, input:valid{
+    outline: none;
+    background-position-x: 10px;
+    background-position-y: 0;
+}
+
+form .group span{
+    font-size: 135%;
+    display: block;
+    padding: 4px;
+    text-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+form .group1{
+    padding: 10px;
+}
+
+form .group1 p{
+    font-size: 135%;
+    display: block;
+    padding-left: 4px;
+    text-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+form .group1 input[type="radio"] + label {
+    display:inline-block;
+    width:25px;
+    height:25px;
+    margin: 2px 7em 0 0;
+    vertical-align:middle;
+    cursor:pointer;
+    font-size: 115%;
+}
+
+
+form .group select{
+    width: 23.5em;
+    height: 2em;
+    font-size: 105%;
+    color: grey;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: solid 1px rgba(184, 183, 181, 0.685);
+    transition: all 1s cubic-bezier(0.64, 0.09,0.08,1);
+    background: linear-gradient(to bottom, rgda(255,255,255,0) 96%, #59837a 4%);
+    background-position: -200px 0;
+    background-size: 200px 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.2);
+    background-repeat: no-repeat;
+}
+
+
+form .group select:hover, select:valid{
+    outline: none;
+}
+
+form button{
+    border : none;
+    width: 8em;
+    height: 3em;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+    background-color: skyblue;
+    color: white;
+    font-size: 125%;
+}
+
+form button:hover{
+    outline: none;
+}
+
+html{
+    background-image: url("../img/background1.jpg");
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

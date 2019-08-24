@@ -1,0 +1,51 @@
+#body,p{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    font-family: 'Roboto', sans-serif;
+    width: 860px;
+    margin: 0 auto;
+}
+
+#header h1{
+    text-align: center;
+    font-size: 300%;
+    color: chocolate;
+}
+
+#main #first_char p{
+    font-size: 300%;
+    border-width: 3px;
+    border-color: chocolate;
+    border-style: double;
+    outline: 2px solid chocolate;
+    color: chocolate;
+    background-color: rgba(231, 197, 85, 0.836);
+}
+
+#main #img img{
+    flex: 1px;
+    margin: 5px 5px 5px 5px;
+    width: 150px;
+}
+
+#container p{
+    flex: 1px;
+}
+
+#main{
+    display: flex;
+    flex: auto;
+}
+
+#main p{
+    margin-left: 4px;
+    color: blueviolet;
+}
+
+p{
+    float: top;
+    color: blueviolet;
+}

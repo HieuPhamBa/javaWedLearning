@@ -1,0 +1,19 @@
+.content{
+    background-color: #A06D21;
+ 
+}
+
+h1{
+    color: #FFCC00;
+    text-align:center;
+}
+
+p{
+    color: white;
+    margin-left: 420px;
+    background-image: url("img.jpg");
+    background-size:300px 600px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}

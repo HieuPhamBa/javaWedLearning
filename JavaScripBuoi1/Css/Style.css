@@ -1,0 +1,73 @@
+#Screen #pre_screen{
+    margin: 0 auto;
+    display: block;
+    height: 1.5em;
+    width: 55vh;
+    border-radius: 4px;
+    font-size: 500%;
+    text-align: right;
+}
+
+#Screen #main_screen{
+    margin: 0 auto;
+    display: block;
+    height: 1.5em;
+    width: 55vh;
+    font-size: 200%;
+    border-radius: 4px;
+    text-align: right;
+}
+
+body, p{
+    padding: 0;
+    margin: 0;
+}
+
+form{
+    width: 56vh;
+    height: 90vh;
+    background-size: cover;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px 1px rgba(10, 10, 10, 0.2);
+    margin: 0 auto;
+    margin-top: 2em;
+}
+
+#button button{
+    display: block;
+    width: 2.32em;
+    height: 2.32em;
+    background-size: cover;
+    box-sizing: border-box;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    margin: 3px;
+    color: #ffffff;
+    font-size: 300%;
+}
+
+#button{
+  margin: 0 auto;
+  margin-top: 3px;
+}
+
+#button #second_column,#button #first_column,#third_column, #four_column
+{
+    float: left;
+}
+
+.plus button{
+    background-color: rgb(175, 68, 29);
+    margin: 8px;
+   
+}
+
+.deco button{
+    background-color: black;
+    display: inline;
+    margin: 8px;
+}
+

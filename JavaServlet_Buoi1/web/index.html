@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign in</title>
+        <link rel="stylesheet" href="./Css/StyleLogin.css">
+    </head>
+    <body>
+        <div id = "container">
+            <form method="POST" action="Login">
+                <h1>Sign in</h1>
+                <input type="text" placeholder="Email" name = "email" required=""/>
+                <input type="password" placeholder="Password" name="pass" required=""/>
+                <div class = "btn">
+                    <button type = "submit">Sign in</button>
+                    <a href="./Registry.html">Sign up</a>
+                </div>
+            </form>
+        </div>
+        <script>
+            window.onload = function(){
+                var getRSLogin = window.location.search;
+                if(getRSLogin!=='')
+                     alert('Login failse!!!');
+            }
+        </script>
+    </body>
+</html>

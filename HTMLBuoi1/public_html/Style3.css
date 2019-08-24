@@ -1,0 +1,16 @@
+h1{
+    color: #006600;
+    text-align: center;
+}
+
+.cnt{
+    margin-left: 550px;
+}
+
+.code{
+    background-color: #CCCCCC;   
+    color: #0000CC; 
+    background-size:300px 500px;
+    background-position: center;
+    margin-right: 550px;
+}

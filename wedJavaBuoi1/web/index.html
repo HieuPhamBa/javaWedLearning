@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <style>
+            form pre{
+                display:inline;
+            }
+        </style>
+        <form method = "POST" action="registry"></br>
+            <pre>UserName:</pre><input type ="text" name ="name" id ="n"></br>
+            <pre>PassWord:</pre><input type ="password" name ="pass" id ="p"></br>
+            <pre>Email   :</pre><input type ="text" name ="email" id = "e"></br>
+            <pre>Address :</pre><input type ="text" name ="address" id = "a"></br>
+            <button type="submit" name="registry" value="registry">Registry</button>
+            <button type="button" onclick="clearInput();" name="clear">Clear</button>
+        </form>
+        
+        <script>
+            function clearInput(){
+                console.log('');
+                var ele = document.getElementById('n');
+                ele.value = '';
+                ele = document.getElementById('p');
+                ele.value = '';
+                ele = document.getElementById('e');
+                ele.value = '';
+                ele = document.getElementById('a');
+                ele.value = '';
+            }
+        </script>
+    </body>
+</html>

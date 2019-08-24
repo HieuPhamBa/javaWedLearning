@@ -1,0 +1,30 @@
+
+
+.title{
+    text-align: center;
+    font-size: 150%;
+    border-color: orange;
+    border-style: double;
+    margin-left: 450px;
+    margin-right: 450px;
+    color: orange;
+}
+
+.first_char{
+    margin-left: 450px;
+ 
+    
+}
+
+.Ben_Thuong_Hai{
+    margin-left: 450px;
+    margin-right: 450px;
+    text-align: left;
+    font-size: 135%;
+    background-color: orange;
+    color: white;
+}
+
+.Second_char{
+    margin-left: 450px;
+}

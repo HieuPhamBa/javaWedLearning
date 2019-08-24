@@ -1,0 +1,28 @@
+.content{
+    background-image: url("background.jpg");
+    margin-left: 100px;
+    margin-right: 100px;
+    color: #008888;
+}
+
+.title{
+    font-size: 150%;
+    text-align: center;
+}
+
+.first_char{
+    font-size: 125%;
+    color: white;
+    background-attachment: fixed;
+    background-color: #339999;   
+    background-size:300px 500px;
+    background-position: center; 
+    margin-left: 150px;
+    margin-right: 40px;
+    letter-spacing: 2px;
+}
+
+.second_char{
+    font-family: sans-serif;
+    font-size: 135%;
+}
